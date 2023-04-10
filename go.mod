@@ -1,4 +1,4 @@
-module gorp
+module github.com/0xN1nja/gorp
 
 go 1.20
 
