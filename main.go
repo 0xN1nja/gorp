@@ -10,7 +10,6 @@ import (
 )
 
 func search(query string, file_path string) []string {
-	chalk.Red.Color("as")
 	file, err := os.Open(file_path)
 	if err != nil {
 		fmt.Println("Unable To Read File")
